@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+}
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+a {
+    text-decoration: none; color: #737373;
+}
+li {
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 16px;
+    min-width: 100px;
+    padding: 0 22px 0 0;
+    vertical-align: top;
+    width: 25%;
+
+}
+ul{
+    padding: 5px;
+}
+
+select {
+    
+    text-indent: 0;
+    background: rgba(0, 0, 0, 0.75);
+    background-image: none;
+    border: 1px solid #333;
+    font-size: 13px;
+    color: inherit;
+    text-shadow: none;
+    display: inline-block;
+    text-align:center;
+    padding: 12px;
+    padding-left: 26px;
+    padding-right: 18px;
+    white-space-collapse: preserve;
+    text-wrap: nowrap;
+    -webkit-rtl-ordering: logical;
+    box-sizing: border-box;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    overflow: visible !important;
+    text-transform: none;
+    text-indent: 0;
+}
+.ana{
+    width: 100%;
+    height: 100%;
+    background-image: url(./netflixarkaplan.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    display: flex;
+
+    flex-flow: column;
+}
+#header-div {
+    
+    /* background: linear-gradient(180deg,rgba(0,0,0,.5) 0,transparent); */
+    background-color: white; width: 100%; height: 65px;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%; 
+    height: auto;
+    padding-left: 33px;
+    padding-top: 15px;
+}
+
+.arkaplan{
+    background-image: url(./netflixarkaplan.jpg);
+}
+
+.body-div{
+    /* background-color: transparent;
+   width: 100%;
+   height: auto;
+   display: block;
+   float: left; */
+   background-color: black; width: 100%; height: auto;
+}
+.form-wrapper {
+    border-radius: 4px;
+    padding: 70px;
+    width: 450px;
+    transform: translate(95%, 0%);
+    background: rgba(0, 0, 0, 0.75);
+	
+}
+
+.form-wrapper h2 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.form-wrapper form {
+    margin: 25px 0 65px;
+}
+
+form .form-control {
+    height: 50px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.form-control input {
+    height: 100%;
+    width: 100%;
+    background: #333;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0 20px;
+}
+
+.form-control input:is(:focus, :valid) {
+    background: #444;
+    padding: 16px 20px 0;
+}
+
+.form-control label {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    pointer-events: none;
+    color: #8c8c8c;
+    transition: all 0.1s ease;
+}
+
+.form-control input:is(:focus, :valid)~label {
+    font-size: 0.75rem;
+    transform: translateY(-130%);
+}
+
+form button {
+    width: 100%;
+    padding: 16px 0;
+    font-size: 1rem;
+    background: #e50914;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    margin: 25px 0 10px;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+
+form button:hover {
+    background: #c40812;
+}
+
+.form-wrapper a {
+    text-decoration: none;
+}
+
+.form-wrapper a:hover {
+    text-decoration: underline;
+}
+
+.form-wrapper :where(label, p, small, a) {
+    color: #b3b3b3;
+}
+
+form .form-help {
+    display: flex;
+    justify-content: space-between;
+}
+
+form .remember-me {
+    display: flex;
+}
+
+form .remember-me input {
+    margin-right: 5px;
+    accent-color: #b3b3b3;
+}
+
+form .form-help :where(label, a) {
+    font-size: 0.9rem;
+}
+
+.form-wrapper p a {
+    color: #fff;
+}
+
+.form-wrapper small {
+    display: block;
+    margin-top: 15px;
+    color: #b3b3b3;
+}
+
+.form-wrapper small a {
+    color: #0071eb;
+}
+
+.footer-div{
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    padding: 10px;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    font-family: inherit;
+    padding-right: 0px;
+    padding-left: 0px;
+    bottom: 0px;
+    border: none ;
+    background-color:  rgba(0, 0, 0, 0.75);
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+}
